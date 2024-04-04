@@ -7,10 +7,24 @@
   min-height: 100vh;
 }
 
+.main div {
+  color: white;
+}
+
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.buttons button {
+  padding: 1rem;
+  margin: 6px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
 }
 
 .video {
